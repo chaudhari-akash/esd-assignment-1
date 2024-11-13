@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/background.png');
+}
+
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.lnk {
+    font-size: x-large;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+
+.center-button {
+    position: relative;
+    margin: 2% auto;
+}
+
+.btn-custom {
+    font-size: 2rem;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+}
+
+.tagline {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-size: xx-large;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.compo {
+    display: flex !important;
+    width: 100%;
+    height: 75vh;
+    justify-content: center;
+    flex-direction: column;
+    font-family: monospace;
+}
